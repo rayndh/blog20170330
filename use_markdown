@@ -4,6 +4,12 @@
   <meta charset="utf-8">
   <title>JS Bin</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+  <link rel="stylesheet" href="http://typo.sofi.sh/typo.css">
+  <style>
+    body{
+      padding:16px;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -14,7 +20,9 @@
 
 **Rayn**
 > 不要相信网上的名人名言  ——鲁迅
+
 大家好，今天我学会了使用Markdown了。
+
 ![](http://h.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=ad29a1ed3c2ac65c67056175c3c9d52c/9f510fb30f2442a74e9d8028d843ad4bd01302af.jpg)
 
 `
