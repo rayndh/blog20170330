@@ -1,1 +1,43 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+  <link rel="stylesheet" href="./typo.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+    body{
+      padding:16px;
+    }
+    img{
+      max-width:100%
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+# 我的第一篇博客
+  
+**Rayn**
+  
+__不抛弃不放弃  ——菠萝兄弟__
+  
+大家好，今天我学会了使用Markdown了。
+
+<img src="https://img.jiankang.com/temp/2017/03/29/14907766473578.jpg">
+    </div>
+
+<script>
+  var content=document.getElementById("app");
+  var markdown=content.innerHTML;
+  console.log(markdown);
+  var html=marked(markdown);
+  content.innerHTML=html
+  
+</script>  
+  
+  
+</body>
+</html>
